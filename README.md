@@ -1,4 +1,5 @@
-# PsExec-Lateral-Movement-Detection-T1021.002-
+# [PsExec Lateral Movement Detection Lab.pdf](https://github.com/user-attachments/files/28374137/PsExec.Lateral.Movement.Detection.Lab.pdf)
+
 Successfully executed and detected PsExec‑based lateral movement in a Windows domain environment. Configured Sysmon on both endpoints to capture process, file, registry, and network telemetry. Enabled SMB and Admin$ access, corrected domain authentication issues, and applied GPO rights required for remote service creation. Executed PsExec from a compromised workstation to the Domain Controller, captured Event 1, 3, 11, and 13, and validated Sigma detection in Security Onion. Built a complete incident timeline aligned with MITRE ATT&CK T1021.002. Demonstrated strong skills in detection engineering, Windows internals, and SOC analysis.
 
 ## 1. Scenario Overview
